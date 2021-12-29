@@ -2,6 +2,10 @@
   "name": "remix-code-snippets",
   "displayName": "Remix Code Snippets",
   "description": "Speed up your Remix development with dynamic code snippets",
+  "repository": {
+    "url": "https://github.com/dylanblokhuis/remix-code-snippets.git",
+    "type": "git"
+  },
   "version": "1.0.0",
   "engines": {
     "vscode": "^1.63.0"
