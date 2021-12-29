@@ -2,17 +2,26 @@
   "name": "remix-code-snippets",
   "displayName": "Remix Code Snippets",
   "description": "Speed up your Remix development with dynamic code snippets",
+  "icon": "images/icon.png",
+  "publisher": "dylanblokhuis",
   "license": "MIT",
   "repository": {
     "url": "https://github.com/dylanblokhuis/remix-code-snippets.git",
     "type": "git"
   },
+  "keywords": [
+    "remix",
+    "remix.run",
+    "code snippets",
+    "snippets",
+    "dynamic code snippets"
+  ],
   "version": "1.0.0",
   "engines": {
     "vscode": "^1.63.0"
   },
   "categories": [
-    "Other"
+    "Snippets"
   ],
   "activationEvents": [
     "onStartupFinished"
