@@ -2,6 +2,7 @@
   "name": "remix-code-snippets",
   "displayName": "Remix Code Snippets",
   "description": "Speed up your Remix development with dynamic code snippets",
+  "license": "MIT",
   "repository": {
     "url": "https://github.com/dylanblokhuis/remix-code-snippets.git",
     "type": "git"
