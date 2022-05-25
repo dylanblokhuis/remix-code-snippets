@@ -3,7 +3,7 @@
 Speed up your Remix development with dynamic code snippets. Quickly create remix components using code snippets like `rmx_fc_l` with the following output:
 
 ```typescriptreact
-import type { LoaderFunction } from "remix"
+import type { LoaderFunction } from "@remix-run/node"
 
 export const loader: LoaderFunction = () => {
 
@@ -21,7 +21,7 @@ export default function ComponentName() {
 Enable `remix-code-snippets.useLetInsteadOfConst` and you get the following output:
 
 ```typescriptreact
-import type { LoaderFunction } from "remix"
+import type { LoaderFunction } from "@remix-run/node"
 
 export let loader: LoaderFunction = () => {
 
@@ -39,7 +39,7 @@ export default function ComponentName() {
 Fill in `remix-code-snippets.additionalCodeAfterImports` with e.g. `import db from "~/services/db.server"` and you get the following output:
 
 ```typescriptreact
-import type { LoaderFunction } from "remix"
+import type { LoaderFunction } from "@remix-run/node"
 import db from "~/services/db.server"
 
 export const loader: LoaderFunction = () => {
