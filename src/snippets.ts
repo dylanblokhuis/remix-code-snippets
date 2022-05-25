@@ -6,7 +6,7 @@ interface SnippetOptions {
 }
 
 export const FC_A = ({ statement, codeAfterImports }: SnippetOptions) =>
-  `import type { ActionFunction } from "remix"
+  `import type { ActionFunction } from "@remix-run/node"
 ${codeAfterImports}
 export ${statement} action: ActionFunction = () => {
   $3
@@ -19,7 +19,7 @@ export default function \${1:ComponentName}() {
 }`;
 
 export const FC_L = ({ statement, codeAfterImports }: SnippetOptions) =>
-  `import type { LoaderFunction } from "remix"
+  `import type { LoaderFunction } from "@remix-run/node"
 ${codeAfterImports}
 export ${statement} loader: LoaderFunction = () => {
   $3
@@ -32,7 +32,7 @@ export default function \${1:ComponentName}() {
 }`;
 
 export const FC_AL = ({ statement, codeAfterImports }: SnippetOptions) =>
-  `import type { ActionFunction, LoaderFunction } from "remix"
+  `import type { ActionFunction, LoaderFunction } from "@remix-run/node"
 ${codeAfterImports}
 export ${statement} action: ActionFunction = () => {
   $3
@@ -60,7 +60,7 @@ export default function \${1:ComponentName}() {
 }`;
 
 export const FC_HL = ({ statement, codeAfterImports }: SnippetOptions) =>
-  `import type { LoaderFunction } from "remix"
+  `import type { LoaderFunction } from "@remix-run/node"
 ${codeAfterImports}
 export ${statement} handle = {
   $3
@@ -77,7 +77,7 @@ export default function \${1:ComponentName}() {
 }`;
 
 export const FC_HA = ({ statement, codeAfterImports }: SnippetOptions) =>
-  `import type { ActionFunction } from "remix"
+  `import type { ActionFunction } from "@remix-run/node"
 ${codeAfterImports}
 export ${statement} handle = {
   $3
@@ -94,7 +94,7 @@ export default function \${1:ComponentName}() {
 }`;
 
 export const FC_HAL = ({ statement, codeAfterImports }: SnippetOptions) =>
-  `import type { ActionFunction, LoaderFunction } from "remix"
+  `import type { ActionFunction, LoaderFunction } from "@remix-run/node"
 ${codeAfterImports}
 export ${statement} handle = {
   $3
